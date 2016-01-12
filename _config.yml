@@ -1,19 +1,31 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Site settings
-title: Web and Stuff
-email: brunet.adrien@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Yet another dev blog.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://adrienbrunet.com" # the base hostname & protocol for your site
-twitter_username: Adrien_Brunet
-github_username:  adrienbrunet
-
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
+# disqus: dbyll
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Adrien Brunet
+
+description: Another Dev Blog
+author:
+  name: Adrien Brunet
+  email: brunet.adrien@gmail.com
+  github: adrienbrunet
+  twitter: Adrien_Brunet
+  linkedin: adrienbrunet
+  bio: Dev and Beer Lover
+  email_md5: c758c805e334540e9ac275b716dc3ec1
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
