@@ -1,0 +1,10 @@
+---
+layout: post
+title: Hello wurd2
+categories: [general, stuff]
+tags: [stuff]
+comments: true
+description: Not Very first post.
+---
+
+Is it working? HEY HO !
