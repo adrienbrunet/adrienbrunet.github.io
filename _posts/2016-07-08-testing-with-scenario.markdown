@@ -56,15 +56,15 @@ from django.test import TestCase
 from .factories import UserFactory 
 
 class ScenarioTestCase(TestCase):
+    @contextmanager
     def create_scenario(self, user):
-        @contextmanager
-        def scenario():
-            if user is not None:
-                self.client.login(username=user.username, password='password')
+        if user is not None:
+            self.client.login(username=user.username, password='password')
+        try:
             yield
+        finally:
             if user is not None:
                 self.client.logout()
-        return scenario
     
     @classmethod
     def setUpTestData(cls):
@@ -111,15 +111,19 @@ We have our factory all set and a brand new `ScenarioTestCase` in our test file 
 class SimpleTest(ScenarioTestCase):
 
     def test_access(self):
-        with self.user1_logged_in_scenario():
+        with self.user1_logged_in_scenario:
             self.assertEqual(self.client.get('/customer/details/').status_code, 200)
         
-        with self.no_user_logged_in_scenario():
+        with self.no_user_logged_in_scenario:
             self.assertEqual(self.client.get('/customer/details/').status_code, 403)
 
 ```
 
 That's all folks! Cheers ! :beers:
 
-**Update 1**: [Twidi](https://github.com/twidi) advised me to use `setUpTestData` instead of `setUp` to handle user creation. (and also scenario here). This allows us to speed up the tests a bit, `setUpTestData` is only called once for the whole test class. [Read More..](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#testcase)
+**Update 1**: [Twidi](https://github.com/twidi) advised me to use `setUpTestData` instead of `setUp` to handle user creation. (and also scenario here). This allows us to speed up the tests a bit, `setUpTestData` is only called once for the whole test class. [Read More..](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#testcase) :+1:
+
+**Update 2**: [@ewjoachim](https://github.com/ewjoachim) pointed out in the comments that I was using a wrapper to create scenario, which was quite pointless here, and that it will be far better with a `try/finally` for the `yield` to ensure the user is logged out in all case after the tests. :+1:
+
+A thousand thanks for your comments and improvements ! Also, this post may be better using [pytest](http://pytest.org/latest/)... But that will be for another post !
 
