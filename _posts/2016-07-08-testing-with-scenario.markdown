@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Django Testing with Scenario
+title: Django Views Testing with Scenario
 categories: [django]
 tags: [django, testing]
 comments: true
@@ -57,7 +57,7 @@ from .factories import UserFactory
 
 class ScenarioTestCase(TestCase):
     @contextmanager
-    def create_scenario(self, user):
+    def log_user(self, user=None):
         if user is not None:
             self.client.login(username=user.username, password='password')
         try:
@@ -70,9 +70,10 @@ class ScenarioTestCase(TestCase):
     def setUpTestData(cls):
         cls.user1 = UserFactory.create()
         # Add here more users if needed
-        
-        cls.no_user_logged_in_scenario = cls.create_scenario(None)
-        cls.user1_logged_in_scenario = cls.create_scenario(cls.user1)
+    
+    def setUp(self):
+        self.no_user_logged_in_scenario = cls.log_user(None)
+        self.user1_logged_in_scenario = cls.log_user(self.user1)
         # Add here any other scenario you'd like
 ```
 
@@ -116,14 +117,18 @@ class SimpleTest(ScenarioTestCase):
         
         with self.no_user_logged_in_scenario:
             self.assertEqual(self.client.get('/customer/details/').status_code, 403)
+            
+        # we can also use the contextmanager directly
+        with self.log_user(self.user1):
+            ...
 
 ```
 
 That's all folks! Cheers ! :beers:
 
-**Update 1**: [Twidi](https://github.com/twidi) advised me to use `setUpTestData` instead of `setUp` to handle user creation. (and also scenario here). This allows us to speed up the tests a bit, `setUpTestData` is only called once for the whole test class. [Read More..](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#testcase) :+1:
+**Update 1**: [Twidi](https://github.com/twidi) advised me to use `setUpTestData` instead of `setUp` to handle user creation. This allows us to speed up the tests a bit, `setUpTestData` is only called once for the whole test class. [Read More..](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#testcase) :+1:
 
-**Update 2**: [@ewjoachim](https://github.com/ewjoachim) pointed out in the comments that I was using a wrapper to create scenario, which was quite pointless here, and that it will be far better with a `try/finally` for the `yield` to ensure the user is logged out in all case after the tests. :+1:
+**Update 2**: [@ewjoachim](https://github.com/ewjoachim) pointed out in the comments that I was using a wrapper to create scenario (~ like a factory), which was quite pointless here, and that it will be far better with a `try/finally` for the `yield` to ensure the user is logged out in all case after the tests. Removing the wrapper around the contextmanager, we're even able to call it directly now. I renamed `create_scenario` to `log_user`, this should be more explicit. :+1:
 
 A thousand thanks for your comments and improvements ! Also, this post may be better using [pytest](http://pytest.org/latest/)... But that will be for another post !
 
