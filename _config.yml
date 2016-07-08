@@ -6,7 +6,8 @@ exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
 disqus: adrienbrunet
-
+gems:
+  - jemoji
 defaults:
   -
     scope:
