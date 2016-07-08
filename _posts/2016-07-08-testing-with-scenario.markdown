@@ -8,11 +8,14 @@ description: Django Views Testing with Scenario.
 ---
 
 # Django Views Testing with Scenario
-## :tada: First Blog Post Ever ! :tada:
+:tada: First Blog Post Ever ! :tada:
+
 _Feels weird. Not even sure how to markdown properly but here we are._
 
 I wanted to share a small trick I use quite often when testing views.
+
 Sometimes, your views heavily depends on the logged in user.
+
 Let's say our tests look like this right now:
 
 ```python
@@ -36,7 +39,9 @@ class SimpleTest(TestCase):
         self.assertEqual(response.status_code, 200)
 ```
 It can quickly become cumbersome to handle multiple users over and over in your tests and it's not quite clear what's "johnny" able to do.
+
 You also might need to force your user to log out, do something, log with another user etc...
+
 What if you need to test the same bit of code with different users with different level of access? 
 
 Here's my solution :gift: let's use a **context manager**.
@@ -72,6 +77,7 @@ class ScenarioTestCase(TestCase):
 ```
 
 To make things a bit easier, I used a really simple `UserFactory` using [Factory Boy](https://factoryboy.readthedocs.io/en/latest/).
+
 Here is the `factories.py` file if you're a bit lost:
 
 ```python
