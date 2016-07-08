@@ -22,11 +22,13 @@ Let's say our tests look like this right now:
 from django.test import TestCase
 
 class SimpleTest(TestCase):
-    def setUp(self):
-        self.username = 'johnny'
-        self.email = 'test@test.com'
-        self.password = 'password'        
-        self.test_user = User.objects.create_user(self.username, self.email, self.password)
+    @classmethod
+    def setUpTestData(cls):
+        # Set up data for the whole TestCase
+        cls.username = 'johnny'
+        cls.email = 'test@test.com'
+        cls.password = 'password'        
+        cls.test_user = User.objects.create_user(cls.username, cls.email, cls.password)
     
     def test_details(self):
         self.client.login(username=self.username, password=self.password)
@@ -63,13 +65,14 @@ class ScenarioTestCase(TestCase):
             if user is not None:
                 self.client.logout()
         return scenario
-
-    def setUp(self):
-        self.user1 = UserFactory.create()
+    
+    @classmethod
+    def setUpTestData(cls):
+        cls.user1 = UserFactory.create()
         # Add here more users if needed
         
-        self.no_user_logged_in_scenario = self.create_scenario(None)
-        self.user1_logged_in_scenario = self.create_scenario(self.user1)
+        cls.no_user_logged_in_scenario = cls.create_scenario(None)
+        cls.user1_logged_in_scenario = cls.create_scenario(cls.user1)
         # Add here any other scenario you'd like
 ```
 
@@ -117,4 +120,6 @@ class SimpleTest(ScenarioTestCase):
 ```
 
 That's all folks! Cheers ! :beers:
+
+**Update 1**: [Twidi](https://github.com/twidi) advised me to use `setUpTestData` instead of `setUp` to handle user creation. (and also scenario here). This allows us to speed up the tests a bit, `setUpTestData` is only called once for the whole test class. [Read More..](https://docs.djangoproject.com/en/1.9/topics/testing/tools/#testcase)
 
