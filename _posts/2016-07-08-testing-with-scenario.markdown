@@ -47,13 +47,10 @@ What if you need to test the same bit of code with different users with differen
 Here's my solution :gift: let's use a **context manager**.
 
 ```python
-# PYTHON
 from contextlib import contextmanager
 
-# THIRD PARTY APPS
 from django.test import TestCase
 
-# OUR WEBAPP
 from .factories import UserFactory 
 
 class ScenarioTestCase(TestCase):
@@ -83,7 +80,6 @@ Here is the `factories.py` file if you're a bit lost:
 ```python
 import factory
 
-# DJANGO
 from django.conf import settings
 
 
