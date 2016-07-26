@@ -6,31 +6,30 @@ tags: [code, general]
 comments: true
 description: Coding Green - a matter of performance.
 ---
-
-_Green coding? What about it? I'm not gonna plant trees while coding dude!_
-
-
-Well, _"green coding"_ is not really a thing (or I'm not aware of it yet) but I'm starting to think about it so I'm sharing this to have some feedback.
+![100% organic](/assets/images/organic.jpg)
+# Green Coding
+_"Green coding"? :four_leaf_clover: What about it? I'm not gonna plant trees while coding dude!_
 
 
-I have read a thousand times that these emails I'm sending everyday from my phone or laptop are equivalent to driving an average-size car per kilometer.
-
-Add a 1-megabyte email attachment, and you could power a low-wattage light bulb for two hours. Oopsie Daisie.
+Well, _"green coding"_ :seedling: is not really a thing (or I'm not aware of it yet) but I'm starting to think about it so I'm sharing this to have some feedback.
 
 
-Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb saving is worth the pain? And what are you talking about anyway?
+
+I have read a thousand times that these emails :email: I'm sending everyday from my phone or laptop are equivalent to driving an average-size car per kilometer.
+
+Add a 1-megabyte email attachment and you could power a low-wattage light bulb for two hours. Oopsie Daisie. :sunflower:
 
 
-Well, emails are one thing. Let's say you're a developper. You write code, each word adds a few bytes to your files.
+Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb :bulb: saving is worth the pain? And what are you talking about anyway?
 
+
+Well, emails are one thing. Let's say you're a developper :coffee: (I don't drink coffee, wtf am I doing). You write code, each word adds a few bytes to your files. 
 You start a project. You have to add a few features for your application to rock! You want to be as famous as... Pokemon Go!
-
 You add some beautiful images and textures.
+A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic even track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
 
-A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic even track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays.
 
-
-What now? Your application gets some fame. (moderate) Let's say you have 1000 users a day.
+What now? Your application gets some fame. (moderate) Let's say you have 1000 users a day. :clap: :clap:
 
 Using the previous comparaison, the power you need on one day for your 4Mb application, transfered to 1000 users.... represents the power you need for 3 years with your light bulb turned on 8hours a day. Well, that's not that alarming. Or is it? What if you have 1 million users? 1 Billion? Your impact only gets bigger.
 
@@ -50,9 +49,11 @@ Hold on tiger. :tiger:
 We have a few motto hanging around, and it's worth remembering them.
 
 - YAGNI: you ain't gonna need it
+
 Less is more, write the feature only when you absolutely need it. You know users want it, it comes from both intuition and validated learning. It won't rot a few weeks before you realize it's pointless.
 
 - DRY: don't repeat yourself
+
 If your code is well factored, you won't have any copy/pasted lines, everything will be written once and for all.
 If you follow a bit of best practices or had good reads (Clean Code, Refactoring, Pragmatic Programmer), you must be familiar with notions of clean code, DRY and refactoring.
 
@@ -73,7 +74,7 @@ See! We're already doing "green coding". Let's just keep in mind we can have an 
 At least, if you don't care about the footprint you might have, just think that your footprint correlates with your app performance. If you need to transfer 20Mo to display your landing page, (I hope that's not the case), your ecologic footprint is dramatic but ... your performance will be really bad as well.
 
 
-If you don't do it for your planet, do it for your users. And maybe, in a few years we'll have badges like _'bio code'_, _'raised in open air'_, _'fair trade commits'_.
+If you don't do it for your planet :globe_with_meridians:, do it for your users. And maybe, in a few years we'll have badges like _'bio code'_, _'raised in open air'_, _'fair trade commits'_.
 
 
 Cheers ! :beers:
