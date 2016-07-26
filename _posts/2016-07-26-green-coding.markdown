@@ -15,7 +15,7 @@ description: Coding Green - a matter of performance.
 # Green Coding
 
 
-_"Green coding"? :four_leaf_clover: What about it? I'm not gonna plant trees while coding dude!_
+_"Green coding"? What about it? I'm not gonna plant trees while coding dude!_
 
 
 Well, _"green coding"_ :seedling: is not really a thing (or I'm not aware of it yet) but I'm starting to think about it so I'm sharing this to have some feedback.
@@ -27,10 +27,10 @@ I have read a thousand times that these emails :email: I'm sending everyday from
 Add a 1-megabyte email attachment and you could power a low-wattage light bulb for two hours. Oopsie Daisie. :sunflower:
 
 
-Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb :bulb: saving is worth the pain? And what are you talking about anyway?
+Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb saving is worth the pain? And what are you talking about anyway?
 
 
-Well, emails are one thing. Let's say you're a developper :coffee: (I don't drink coffee, wtf am I doing). You write code, each word adds a few bytes to your files. 
+Well, emails are one thing. Let's say you're a developper. You write code, each word adds a few bytes to your files. 
 You start a project. You have to add a few features for your application to rock! You want to be as famous as... Pokemon Go!
 You add some beautiful images and textures.
 A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic even track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
@@ -50,7 +50,7 @@ At some point, we need to realize our footprint matters, as a developper.
 
 Great, now, you feel ashamed to do your job. You can't write less code, your application ain't gonna have features by itself if you do not add it. But you don't want to pollute anymore.
 
-Hold on tiger. :tiger:
+Hold on tiger.
 
 
 We have a few motto hanging around, and it's worth remembering them.
