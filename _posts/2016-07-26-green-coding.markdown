@@ -31,14 +31,13 @@ Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb saving
 
 
 Well, emails are one thing. Let's say you're a developper. You write code, each word adds a few bytes to your files. 
-You start a project. You have to add a few features for your application to rock! You want to be as famous as... Pokemon Go!
-You add some beautiful images and textures.
-A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
+You start a project, add a few features for your application to rock! You want to be as famous as... Pokemon Go!
+A few months later, you have built a 4Mb javascript application, you're really proud. Everything works, it's fully tested, automated, some black magic track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
 
 
 What now? Your application gets some fame. (moderate) Let's say you have 1000 users a day. :clap: :clap:
 
-Using the previous comparaison, the power you need on one day for your 4Mb application, transfered to 1000 users.... represents the power you need for 3 years with your light bulb turned on 8hours a day. Well, that's not that alarming. Or is it? What if you have 1 million users? 1 Billion? Your impact only gets bigger.
+Using the previous comparaison, the power you need on one day for your 4Mb application, transfered to 1000 users.... represents the power you need for 3 years with your light bulb turned on 8hours a day. Well, that's not that alarming or is it? What if you have 1 million users? 1 Billion? Your impact only gets bigger.
 
 
 This approximation is obviously simplistic, not even scientific for one second and does not take into account many things like code minification, caching, shared resources etc...
