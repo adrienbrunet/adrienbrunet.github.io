@@ -78,7 +78,7 @@ Have a look for example at [Django Design Philosophies](https://docs.djangoproje
 See! We're already doing "green coding". Let's just keep in mind we can have an impact and try to do even better than before.
 
 
-At least, if you don't care about the footprint you might have, just think that your footprint correlates with your app performance. If you need to transfer 20Mo to display your landing page, (I hope that's not the case), your ecologic footprint is dramatic but ... your performance will be really bad as well.
+At least, if you don't care about the footprint you might have, just think that your footprint correlates with your app performance. If you need to transfer 20Mb to display your landing page, (I hope that's not the case), your ecologic footprint is dramatic but ... your performance will be really bad as well.
 
 
 If you don't do it for your planet, do it for your users. And maybe, in a few years we'll have badges like _'bio code'_, _'raised in open air'_, _'fair trade commits'_.
