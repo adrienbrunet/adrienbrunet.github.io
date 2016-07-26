@@ -33,7 +33,7 @@ Okay, cool story bro :+1:, but do you really think your 2hours-light-bulb saving
 Well, emails are one thing. Let's say you're a developper. You write code, each word adds a few bytes to your files. 
 You start a project. You have to add a few features for your application to rock! You want to be as famous as... Pokemon Go!
 You add some beautiful images and textures.
-A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic even track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
+A few months later, you have build a 4Mb javascript application, you're really proud. Everything works, it's even fully tested, automated, some black magic track the users, deploy the code automagically, you don't even need to work anymore. Time for some holidays. :palm_tree:
 
 
 What now? Your application gets some fame. (moderate) Let's say you have 1000 users a day. :clap: :clap:
