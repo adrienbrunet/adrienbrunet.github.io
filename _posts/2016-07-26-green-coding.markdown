@@ -69,7 +69,8 @@ I'm not asking for anything new. It's already in the best practices we know.
 
 Some frameworks/languages help you do that and state it.
 
-Have a look for example at [Django Design Philosophies](https://docs.djangoproject.com/en/1.9/misc/design-philosophies/). Among the first bullet points, you have: 
+Have a look for example at [Django Design Philosophies](https://docs.djangoproject.com/en/1.9/misc/design-philosophies/). Among the first bullet points, you have:
+
 - Less Code
 - DRY
 - ...
