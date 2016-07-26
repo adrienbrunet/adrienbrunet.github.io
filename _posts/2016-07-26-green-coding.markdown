@@ -6,7 +6,10 @@ tags: [code, general]
 comments: true
 description: Coding Green - a matter of performance.
 ---
+
+
 ![100% organic](/assets/images/organic.jpg)
+
 
 
 # Green Coding
