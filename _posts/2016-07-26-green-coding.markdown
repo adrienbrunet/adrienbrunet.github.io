@@ -7,7 +7,11 @@ comments: true
 description: Coding Green - a matter of performance.
 ---
 ![100% organic](/assets/images/organic.jpg)
+
+
 # Green Coding
+
+
 _"Green coding"? :four_leaf_clover: What about it? I'm not gonna plant trees while coding dude!_
 
 
