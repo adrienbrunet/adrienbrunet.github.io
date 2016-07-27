@@ -18,7 +18,8 @@ description: Coding Green - a matter of performance.
 _"Green coding"? What about it? I'm not gonna plant trees while coding dude!_
 
 
-Well, _"green coding"_ :seedling: is not really a thing (or I'm not aware of it yet) but I'd like some feedback. Edit: Sadly, I haven't invented this, it already existed: see [this post](http://motherboard.vice.com/read/programmers-arent-writing-green-code-where-its-most-needed) and this [scientific paper](http://dl.acm.org/citation.cfm?id=2884810)
+Well, _"green coding"_ :seedling: is not really a thing (or I'm not aware of it yet) but I'd like some feedback. 
+**Edit**: Sadly, I haven't invented this, it already existed: see [this post](http://motherboard.vice.com/read/programmers-arent-writing-green-code-where-its-most-needed) and this [scientific paper](http://dl.acm.org/citation.cfm?id=2884810)
 
 
 
