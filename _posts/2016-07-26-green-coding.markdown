@@ -38,7 +38,7 @@ A few months later, you have built a 4Mb javascript application, you're really p
 
 What now? Your application gets some fame. (moderate) Let's say you have 1000 users a day. :clap: :clap:
 
-Using the previous comparaison, the power you need on one day for your 4Mb application, transfered to 1000 users.... represents the power you need for 3 years with your light bulb turned on 8hours a day. Well, that's not that alarming or is it? What if you have 1 million users? 1 Billion? Your impact only gets bigger.
+Using the previous comparison, the power you need on one day for your 4Mb application, transfered to 1000 users.... represents the power you need for 3 years with your light bulb turned on 8hours a day. Well, that's not that alarming or is it? What if you have 1 million users? 1 Billion? Your impact only gets bigger.
 
 
 This approximation is obviously simplistic, not even scientific for one second and does not take into account many things like code minification, caching, shared resources etc...
@@ -82,7 +82,7 @@ See! We're already doing "green coding". Let's just keep in mind we can have an 
 At least, if you don't care about the footprint you might have, just think that your footprint correlates with your app performance. If you need to transfer 20Mb to display your landing page, (I hope that's not the case), your ecologic footprint is dramatic but ... your performance will be really bad as well.
 
 
-If you don't do it for your planet, do it for your users. And maybe, in a few years we'll have badges like _'bio code'_, _'raised in open air'_, _'fair trade commits'_.
+If you don't do it for your planet, do it for your users. And maybe, in a few years we'll have badges like _'organic code'_, _'raised in open air'_, _'fair trade commits'_.
 
 
 Cheers ! :beers:
