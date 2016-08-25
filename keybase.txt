@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/abrunet
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://blog.adrienbrunet.com
+  * I am abrunet (https://keybase.io/abrunet) on keybase.
+  * I have a public key with fingerprint 878D F8EB 8D2E 2F9C FF80  6002 34FC 5DEB 9A6D 57C5
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ba12151d121d3339276bed7be3cf22ad71607ba294f38f4467f4797959a5c0dc0a",
+            "fingerprint": "878df8eb8d2e2f9cff80600234fc5deb9a6d57c5",
+            "host": "keybase.io",
+            "key_id": "34fc5deb9a6d57c5",
+            "kid": "0101ba12151d121d3339276bed7be3cf22ad71607ba294f38f4467f4797959a5c0dc0a",
+            "uid": "c43092bc990c6cc86e23b625a8288519",
+            "username": "abrunet"
+        },
+        "service": {
+            "hostname": "blog.adrienbrunet.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1472122828,
+    "expire_in": 157680000,
+    "prev": "ab1672977987ce7802207e2e09336c26eec1ca5a7f4c3fc1ad06dc6984027ee5",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.56
+Comment: https://keybase.io/crypto
+
+yMIpAnicrZJbSBVBGMeP2cUOBBqE0U1bIi3lNDt7mZ1TRBRFT6UlmaEedmdmj5un
+3eOePZZlGEkE0eUhMILuQTciShINRVPMDMUUiiCToqwoinrqbjRr9dZj8zDDfPy+
+//znz9c9LTUQTLm+ceAjxAfPp/R1nkoGitvv9+8SDIfWCOFdQiUbP1iMsoQXqbSo
+EBaACERDF6GoiJTvVJIkDJFqMIoMJhETQp0iUQXI0CGWTUkzZVlFpowwwgrWFQIo
+AbqQL5iWHWVu3LVsj8tqSKOmxgyNQgZNTExTAyoAUJJNolBmYF2lCiIKb6xwEn4H
+N2foCRayHF7jl8i4vX/w/9l3clyOyBLA0CAYA6ISoqkMSoYKFV2DmqaI2AcTzLX1
+bYzTuuEmbeYJu/MFXqy2CPNz9T/yBzBiTjSkU9di9m80RJxtXCPuOp5DnBhHKjwv
+HvYVvJq437KdGZE/YhHDsimPkzdUMzdhObYQFjlJPMtXF2UERQi5s3yB7YhbLotY
+PqEgVQN8+c+w6nGbooogRghriDCkAQgBYpABLEkqgSpjRCS6ovNYiGQSUadApUTF
+mgwgYswPO8GqbEcIy9ymHuWSCStq617SZcLurtulEwMpwcDkSRP8MQsEp6b/Hb6R
+jiljWRsrmt+9e5n3qDC7dkOyabRo2rOFTYWRxgbpeKoze1nABS2zHpdemX4oTUD7
+DroFh7rk1wL+kIDlTzKLmx8fy2yCvc30SN/zdQ+zXp0Ye1tX8rb9VllJ1cy0soHF
+P8+4sxYNNVzq+9G5xlqt7IUl5y5Gn8YHTp9sCO75VJ6XO+da74o39SNT09v2bHrR
+0y9113u1zvKMJaQxo3r+kRBbOdo2mDd89UF79qevpV8LWmrTk5/PzM6x3suDq9Zv
+uVmfE5u5IG3/kuO5qfcKB5631vdcfh9YGvhS1bN57uGO8GjX/NBwa/A1PrtzbV3X
+0TtGUee3Axe2zrs7VJm25sYM/GHO2PdfII1GBg==
+=UKVu
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/abrunet
+
+==================================================================
