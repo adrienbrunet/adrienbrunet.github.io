@@ -9,11 +9,13 @@ description: I used to shout at my computer, it started shouting back.
 
 # My browser can now shout back at me
 
-![100% yelling](/assets/images/yelling.JPG)
+![60% yelling](/assets/images/yelling.JPG)
 
 
 I talk a lot to my computer:
+
 > :loudspeaker: "WHY YOU SO SLOW? WHY DO YOU... UUHHHH... JUST DO IT... COME ON! YOU LOST WIFI AGAIN. DAMNIT.".
+
 Ok, I admit it, I sometimes yell at it.
 But it started shouting back.
 
@@ -29,6 +31,7 @@ window.speechSynthesis.speak(greetings);
 What this does: the first line creates an object holding the text to be spoken out and loud to the crowd, the second one makes you hear the warm and cute voice of your robot-computer.
 
 Let's wrap this into an Immediately-invoked anonymous function to include this snippet everywhere. Let's make the internets a really bad place.
+
 ```javascript
 (function() {
   var greetings = new SpeechSynthesisUtterance();
