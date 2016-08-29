@@ -100,4 +100,6 @@ Show me your best creation in the comments!
 
 You're still here? Want more? There is also a `SpeechRecognition` module. But it will be for another day.
 
+*Bonus:* if you ever read this @bmispelon, note that speechSynthesis can read emoji as well. :wink:
+
 Hope you enjoyed it, Cheers :beer:
