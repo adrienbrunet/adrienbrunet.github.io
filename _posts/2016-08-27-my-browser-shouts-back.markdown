@@ -25,11 +25,6 @@ Let me explain what we can do. Copy/paste this small script in your browser cons
 
 <a class="jsbin-embed" href="http://jsbin.com/jicopubuma/embed?js">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.39.14"></script>
 
-```javascript
-var greetings = new SpeechSynthesisUtterance("beep boop! Greetings human!");
-window.speechSynthesis.speak(greetings);
-```
-
 What this does: the first line creates an object holding the text to be spoken out and loud to the crowd, the second one makes you hear the warm and cute voice of your robot-computer.
 
 Let's wrap this into an Immediately-invoked anonymous function to include this snippet everywhere. Let's make the internets a really bad place.
