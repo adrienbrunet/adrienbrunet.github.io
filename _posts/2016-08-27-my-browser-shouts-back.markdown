@@ -9,19 +9,21 @@ description: I used to shout at my computer, it started shouting back.
 
 # My browser can now shout back at me
 
-![60% yelling](/assets/images/yelling.JPG)
+![40% yelling](/assets/images/yelling.JPG)
 
 
 I talk a lot to my computer:
 
 > :loudspeaker: "WHY YOU SO SLOW? WHY DO YOU... UUHHHH... JUST DO IT... COME ON! YOU LOST WIFI AGAIN. DAMNIT.".
 
-Ok, I admit it, I sometimes yell at it.
+Ok, I admit it, I yell at it.
 But it started shouting back.
 
 I'm not nuts. Not yet. I just found one new feature :sparkles: (at least for me) on the `window` object with Chrome (had no luck with other browsers). Please note this is still an experimental technology.
 
 Let me explain what we can do. Copy/paste this small script in your browser console. If the odds are with you, you should hear an almost friendly voice giving its greetings. (Mine is a french female voice by default but you can change that if you want to. See `getVoices()`)
+
+<a class="jsbin-embed" href="http://jsbin.com/jicopubuma/embed?js">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?3.39.14"></script>
 
 ```javascript
 var greetings = new SpeechSynthesisUtterance("beep boop! Greetings human!");
