@@ -67,7 +67,7 @@ var myCoolLyrics = ("Buy it, use it, break it, fix it," +
 SingForMe(myCoolLyrics);
 ```
 
-Here it is, hold thight Daft Punk, I'm coming at you!
+Here it is, hold tight Daft Punk, I'm coming at you!
 
 _Bonus part_: Do you want me to sing it?
 Let see what's behind `window.speechSynthesis.getVoices()`: a nice list of 20 voices! 
