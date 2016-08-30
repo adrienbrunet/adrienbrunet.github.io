@@ -40,10 +40,10 @@ Let's wrap this into an Immediately-invoked anonymous function to include this s
 That's it, your browser is now talking! (at least, if you're using a compatible one see for example [this doc](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance "Documentation on SpeechSynthesisUtterance")
 I guess the default language voice depends on your settings, more on that at the end of this post.
 
-I wonder why I haven't been fully aware of this sooner. The API is quite simple. I'm not sure what applications we can have with that, some kind of accessibility features I guess. It's great even if the voice is sometimes a bit robotic... I don't have any other idea how to use this. Or maybe I do. See second part of the article.
+I wonder why I wasn't fully aware of this earlier. The API is quite simple. I'm not sure what applications we can have with that, some kind of accessibility features I guess. It's great even if the voice is sometimes a bit robotic... I don't have any other idea how to use this. Or maybe I do. See second part of the article.
 
 The fact that it's not a popular feature... Well... It's in the window object... Which is a total mess. Last time I checked what was in there, I found an old friend from college, a dead body and some candies.
-But I'm not gonna talk trash about javascript or the window object, it's too much of an easy game, it's not even fair. Javascript is _fun_, 3 lines and it's even talking back to you, see? Let's use it now before it become self-aware.
+But I'm not gonna talk trash about javascript or the window object, it's too much of an easy game, it's not even fair. Javascript is _fun_, 3 lines and it's even talking back to you, see? Let's use it now before it becomes self-aware.
 
 # The useless part
 Let's have a singing javascript:
@@ -95,7 +95,7 @@ Not sure about you, but I won't sleep well from now on. I work more than 8 hours
 Want more? You can also tune the pitch, volume and rate.
 Show me your best creation in the comments!
 
-You're still here? Want more? There is also a `SpeechRecognition` module. But it will be for another day.
+You're still here? Want more? There is also a `SpeechRecognition` module. But that will be for another day.
 
 *Bonus:* if you ever read this @bmispelon, note that speechSynthesis can read emoji as well. :wink:
 
