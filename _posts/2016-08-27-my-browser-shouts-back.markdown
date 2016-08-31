@@ -64,7 +64,7 @@ var myCoolLyrics = ("Buy it, use it, break it, fix it," +
   "Charge it, point it, zoom it, press it," +
   "Snap it, work it, quick - erase it," +
   "TECHNOLOGIC! TECHNOLOGIC! TECHNOLOGIC!");
-SingForMe(myCoolLyrics);
+singForMe(myCoolLyrics);
 ```
 
 Here it is, hold tight Daft Punk, I'm coming at you!
