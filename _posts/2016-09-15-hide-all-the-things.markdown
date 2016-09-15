@@ -9,6 +9,8 @@ description: Want to hide tiny part of well know websites? Here is a trick.
 
 Do you want to hide parts of facebook or twitter? Have a look.
 
+<p align="center"><img src="/assets/images/hide-all-the-things.jpg" alt="Hide all the things"></p>
+
 I recently discovered the chrome extension called "Stylish". It allows you to add an extra layer of css on top of the css website. The css being what controls the style of your page.
 It means you can tampered any website style. You always dreamed of a pink facebook bar?
 
@@ -21,6 +23,8 @@ So far, it's easy, right? You shoud have it installed by now.
 You can now tweak any websites to your will with it. Let try with an example!
 
 # Facebook
+
+<p align="center"><img src="/assets/images/facebook.png" alt="Hide all the things"></p>
 
 On facebook, I'm friend with a large amount of people (I barely know half of them) and I haven't spoken to most of them for years.
 
