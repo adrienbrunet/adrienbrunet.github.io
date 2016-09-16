@@ -48,7 +48,7 @@ Well, I don't need the news feed. And I'm not gonna waste my time scrolling it a
 Here is the template you can use to hide facebook news feed`using you newly installed app:
 
 Workflow:
-- click on your extension icon,
+- click on your extension icon
 - click on "write style for *website name*"
 - copy paste the following code
 - add a name on the top left
