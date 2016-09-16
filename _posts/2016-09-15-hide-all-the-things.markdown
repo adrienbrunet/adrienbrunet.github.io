@@ -11,14 +11,13 @@ Do you want to hide parts of facebook or twitter? Have a look.
 
 <p align="center"><img src="/assets/images/hide-all-the-things.jpg" alt="Hide all the things"></p>
 
-I recently discovered the chrome extension called "Stylish". It allows you to add an extra layer of css on top of the css website. The css being what controls the style of your page.
-It means you can tampered any website style. You always dreamed of a pink facebook bar?
+I recently discovered the chrome extension called "Stylish". It allows you to add an extra layer of css on top of the css website. *CSS* being what controls the style of your page.
+It means you can tampered any website style. Have you always dreamed of a pink facebook bar?
 
 First of all... Install Stylish:
-  [Their official website](https://userstyles.org/) (really sorry, it's quite ugly)
+  [Their official website](https://userstyles.org/) (their website design could benefit from some extra css layers...)
 
-
-So far, it's easy, right? You shoud have it installed by now.
+Install is EZ PZ. You shoud have it installed by now.
 
 You can now tweak any websites to your will with it. Let try with an example!
 
@@ -48,7 +47,14 @@ What I need:
 Well, I don't need the news feed. And I'm not gonna waste my time scrolling it anymore.
 Here is the template you can use to hide facebook news feed`using you newly installed app:
 
-(click on your extension icon, then on write style for *website name*, copy paste the following code, add a name on the top left, save, rince, repeat)
+Workflow:
+- click on your extension icon,
+- click on "write style for *website name*"
+- copy paste the following code
+- add a name on the top left
+- save
+- rinse
+- repeat
 
 ```css
 /* Hide newsfeed */
@@ -63,11 +69,12 @@ Here is the template you can use to hide facebook news feed`using you newly inst
 # Wired
 
 One more example and I let you do your own.
-Wired keeps driving me crazy with its anti ad-blocker page. The benefits of an ad-blocker, or the fact we should or not use it won't be address here.
+
+Wired keeps driving me crazy with its anti ad-blocker page. The benefits of an ad-blocker, or the fact we should (or not) use it, won't be address here.
 
 The fact is: I don't want to see it.
 
-Here is a template to hide it:
+Here is a template to hide it the anti ad-blocker overlay:
 
 ```css
 /* Hide anti ad-blocker layer */
