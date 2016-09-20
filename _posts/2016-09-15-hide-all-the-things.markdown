@@ -70,7 +70,7 @@ Workflow:
 
 One more example and I'll let you do your own.
 
-Wired keeps driving me crazy with its anti ad-blocker page. The benefits of an ad-blocker, or the fact we should (or not) use it, won't be address here.
+Wired keeps driving me crazy with its anti ad-blocker page. The benefits of an ad-blocker, or the fact we should (or not) use it, won't be addressed here.
 
 The fact is: I don't want to see that page.
 
