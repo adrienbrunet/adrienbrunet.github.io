@@ -12,7 +12,7 @@ Do you want to hide parts of facebook or twitter? Have a look.
 <p align="center"><img src="/assets/images/hide-all-the-things.jpg" alt="Hide all the things"></p>
 
 I recently discovered the extension called "Stylish" (available on chrome, firefox, safari...). It allows you to add an extra layer of css on top of existing website. *CSS* being what controls the style of your page.
-It means you can tampered any website style. Have you always dreamed of a pink facebook bar? Stylish comes  with a few examples for famous usecases like Facebook theme, Google theme and so on.
+It means you can tamper any website style. Have you always dreamed of a pink facebook bar? Stylish comes  with a few examples for famous usecases like Facebook theme, Google theme and so on.
 
 First of all... Install Stylish:
   [Their official website](https://userstyles.org/) (their website design could benefit from some extra css layers...)
