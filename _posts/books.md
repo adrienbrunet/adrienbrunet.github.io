@@ -1,0 +1,62 @@
+---
+layout: post
+title: Books
+categories: [books]
+tags: [books]
+comments: true
+description: Books I've read. More a personal note than a blog post.
+---
+
+This is a personal list I keep to remember what I have read and which book I lend to friends.
+
+This is not intended to be a blog post or interesting for anybody else than me. You can however advise me some good reads =)
+
+# Already Read aka "To be read again later"
+
+PYTHON
+- **Python for Data Analysis** *- Wes McKinney* (introduction to notebooks, numpy, panda)
+- **Learning Python Design Pattern** *- Gennadiy Zlobin*
+- **Violent Python** *- TJ O'Connor*
+- **High Performance Python** *-Micha Gorelick, Ian Ozsvald*
+
+DJANGO
+- **Test-Driven Development with Python** *- Harry J.W. Percival*
+- **Pro Django** *- Marty Alchin*
+- **Django Essentials** *- Samuel Dauzon* Meh.
+- **High Performance Django** *- Peter Baumgartner, Yann Malet*
+- **Two Scoops of Django** *- Daniel Greenfeld, Audrey Roy* <3
+
+JAVASCRIPT
+- **Javascript Patterns** *- Stoyan Stefanov*
+- **Learning JavaScript Design Patterns** *- Addy Osmani* LEND TO NICO
+- **AngularJS Up & Running** *- Shyam Seshadri & Brad Green*
+- **Javascript Ninja** *- John Resig* LEND TO NICO
+- **High Performance Javascript** *- Nicholas C. Zakas* LEND TO NICO
+- **Javascript, The Definitive Guide** *- David Flanagan*
+- **Javacript, the Good Parts** *- Douglas Crockford*
+
+WEBGL
+- **Programming 3D Applications with HTML5 and WebGL** *- Tony Parisi* (more and introduction to three.js and a few other libs than raw webgl and internals)
+
+GENERIC
+- **The Pragmatic Programmer** *- Andrew Hunt, David Thomas*
+- **Clean Code** *- Robert C. Martin*
+- **The Clean Coder** - *Robert C. Martin*
+- **Agile Software Development, Principles, Patterns, and Pratices** *- Robert C. Martin*
+- **Beautiful Code** *- Andy Oram, Greg Wilson*
+- **Test-Driven Development** *- Kent Beck*
+- **The Software Craftman** *- Sandro Mancuso*
+- **Refactoring** *- Martin Fowler*
+- **Culture Code** Software Craftsmanship: Better Places with Better Code [FR] *- OCTO*
+- **Lean Start Up** *- Eric Ries*
+
+# On my shelf
+
+- **Security engineering** *- Ross J. Anderson*
+- **Write Great Code, Volume 1** *- Randall Hyde*
+- **Write Great Code, Volume 2** *- Randall Hyde*
+- **Introduction to Algorithms, Third Edition** *- Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen*
+
+# TO BUY
+
+- **Hello Web App** *- Tracy Osborn*
