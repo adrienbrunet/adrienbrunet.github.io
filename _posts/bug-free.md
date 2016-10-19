@@ -13,7 +13,7 @@ Old and classic computing problems can't get old. A bug might be hidding another
 
 I had a look recently at "[_Beautiful Code_](http://shop.oreilly.com/product/9780596510046.do 'O'reilly link to Beautiful Code Book')".
 
-One of my favorite chapter, called "_Beautiful Test_" takes an example from "[_Programming Pearls_](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880 "Amazon link to buy Progamming pearls")" anout binary search.
+One of my favorite chapter, called "_Beautiful Test_" takes an example from "[_Programming Pearls_](https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880 "Amazon link to buy Progamming pearls")" about binary search.
 
 The fact is: binary search is quite simple to explain but you have a trillion ways to implement it wrong.
 
