@@ -17,9 +17,9 @@ One of my favorite chapter, called "_Beautiful Test_" takes an example from "[_P
 
 The fact is: binary search is quite simple to explain but you have a trillion ways to implement it wrong.
 
-In particular, with big anough arrays, you can raise exceptions in most implementation. **INTEGER OVERFLOW MAGIC**.
+In particular, with big enough arrays, you can raise exceptions in most poor implementations. **INTEGER OVERFLOW MAGIC**.
 
-The naive implementation in java given is
+The naive implementation in java given is:
 
 ```java
 public static int buggyBinarySearch(int[] a, int target) {
