@@ -40,7 +40,7 @@ public static int buggyBinarySearch(int[] a, int target) {
 }
 ```
 
-If this is pretty straightforward, the fact that the bug lies on the line ` int mid = (low + high) / 2;` can be surprising at first.
+If this is pretty straightforward but the fact that the bug lies on the line ` int mid = (low + high) / 2;` can be surprising at first.
 If you want to read more on that, you can read this chapter in "_Beautiful Code_", jUnit is introduced and other implementations are discussed.
 
 Reading that, I realized that even something as obvious as the mean between two numbers can be a tricky thing to implement correctly. And don't even try to do that without test.
