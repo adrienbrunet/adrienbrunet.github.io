@@ -40,7 +40,7 @@ public static int buggyBinarySearch(int[] a, int target) {
 }
 ```
 
-If this is pretty straightforward but the fact that the bug lies on the line ` int mid = (low + high) / 2;` can be surprising at first.
+If this is pretty straightforward, the fact that the bug lies on the line ` int mid = (low + high) / 2;` can be surprising at first.
 If you want to read more on that, you can read this chapter in "_Beautiful Code_", jUnit is introduced and other implementations are discussed.
 
 Reading that, I realized that even something as obvious as the mean between two numbers can be a tricky thing to implement correctly. And don't even try to do that without test.
@@ -75,13 +75,13 @@ def test_mean():
     assert mean(1, 2) == 1.5
     overflow_test = mean(sys.maxsize, sys.maxsize + 2)
     assert overflow_test == sys.maxsize + 1
-    assert type(overflow_test) == float
 ```
-And... it'is OK !
+And... it'is OK! All green!
 
-But wait, we were talking about integer overflow, we don't have it but now we're using floats (as the division gives back a float).
+But wait, we were talking about integer overflow, we don't have it, but now we're using floats (as the division gives back a float).
 
-That's not my point. This implementation just feels ok for now. Indeed, I can't think of something that could go wrong. Muahaha, how naive am I. If a bug is solved, that does not mean we now are bug-free.
+This implementation feels ok for now. Indeed, I can't think of something that could go wrong. Muahaha, how naive am I. If a bug is solved, that does not mean we are bug-free.
+
 We are just sure one particular bug won't happen again. Thanks you beautiful test.
 
 If I can't think of a failing test, that's only because I'm a weak developper. Some people get my ass (and yours probably) covered... Let's discover [**Hypothesis**](https://hypothesis.readthedocs.io/en/latest/).
@@ -119,7 +119,7 @@ from hypothesis import strategies as st
 from mean import mean
 
 
-@given(st.floats(), st.floats())
+@given(st.integers(), st.integers())
 @settings(max_examples=50000)
 def test_mean(a, b):
     assume(not isnan(a) and not isnan(b) and not isinf(a) and not isinf(b))
@@ -134,23 +134,35 @@ Whaaaaat?
 Here we go, we faced a similar problem than before but with floats. I guess you want to do some computing magic, you now have your `mean` function, you have your tests setup and you NEED it to work even for big enough floats.
 What can we do?
 
-Here are two attempts:
+Here are another attempt (from beautiful code) which could be relevant if our problem was an overflow:
 
 ```python
 def mean(a, b):
     c = min(a, b)
     d = max(a, b)
-    return c + (d - c) / 2
+    return c + (d - c) / 2 
 ```
 
-That one was full of promises but failed for the same reason.
+If you want to show off, you can try shifting bits but guess what... Our real problem here is nothing but float precision. It wont get any better.
 
-Let's try a last one:
-
-```python
+So... We need to used decimal and we should be good.
 
 ```
+from decimal import *
+
+def mean(a, b):
+    getcontext().prec = 40
+    return Decimal(a + b) / 2
+```
+
+And..... that finally works !
+
+Under 50 000 different tests! Those tests showed us that even if our integer overflow wasn't a problem anymore, nothing guaranteed that we were bug-free. Never trust your instinct. Trust your test.
 
 
 
 Cheers :beer:
+
+TODO review this article, float int confusion in the middle, conclusion clunky ertc etc
+
+Thank you @linovia for helping me out with this float precision thing. 
