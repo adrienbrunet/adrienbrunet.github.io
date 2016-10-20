@@ -206,5 +206,7 @@ You probably don't need to deal with big floats and the first implementation sho
 
 If you like this introduction to Hypothesis, check their [documentation](https://hypothesis.readthedocs.io/en/latest/quickstart.html 'Hypothesis documentation'), you have a lot more than what I exposed here (for example, stateful testing is appealing).
 
+Wants more? Here is a [djangocon talk on Hypothesis](https://vimeo.com/134190370).
+
 
 Cheers :beer:
