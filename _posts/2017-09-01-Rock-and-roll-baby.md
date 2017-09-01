@@ -13,7 +13,7 @@ It's been a while. I got not time to write, I changed job, moved out to a new pl
 
 ![I'm back](/assets/images/imback.jpg)
 
-Sooooo... I needed a subject to get back on track. I'm a drummer and yesterday, I wanted to get some drum sheet music and guess what, there are emoji for that : :drum: :shit: :musical_note: so here is my new blog post !
+Sooooo... I needed a subject to get back on track. I'm a drummer and yesterday, I wanted to get some drum sheet music and guess what, there are emoji for that : :drum: :shit: :musical_note: (taduum sheeeet) so here is my new blog post !
 
 I found a [quite old french website](http://www.drumsandco.com/partitions.php) with :drum: :musical_note: sheets on it. Only problem, I had not enough motivation to download all the files one by one.
 
