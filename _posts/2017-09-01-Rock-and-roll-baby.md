@@ -37,11 +37,12 @@ I wrote a tiny script to download all the music sheets from this file:
 ```python
 """Script to download drums parts"""
 
-import request
+import requests
 
 
 def get_list_of_urls_and_filename():
     urls_and_filenames = []
+    base = 'http://www.drumsandco.com/Partitions/'
 
     with open('./list_parts.txt', 'r') as parts:
         for line in parts.readlines():
@@ -53,7 +54,6 @@ def get_list_of_urls_and_filename():
 
 
 def main():
-    base = 'http://www.drumsandco.com/Partitions/'
     urls_and_filenames = get_list_of_urls_and_filename()
     len_dls = len(urls_and_filenames)
 
@@ -64,7 +64,7 @@ def main():
 
 def download_file(path, url):
     """Download drums pdf file"""
-    resp = request.get(url)
+    resp = requests.get(url)
 
     if resp.status_code != 200:
         return print(f'{url} failed')
@@ -95,8 +95,7 @@ async def main():
     global session
     session = aiohttp.ClientSession()
     tasks = []
-    base = 'http://www.drumsandco.com/Partitions/'
-    urls = get_list_of_urls_and_filename()
+    urls_and_filenames = get_list_of_urls_and_filename()
     len_dls = len(urls_and_filenames)
 
     for (counter, (url, name)) in enumerate(urls_and_filenames):
