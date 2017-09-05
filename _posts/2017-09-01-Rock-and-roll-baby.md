@@ -40,6 +40,9 @@ I wrote a tiny script to download all the music sheets from this file:
 import requests
 
 
+session = request.Session()
+
+
 def get_list_of_urls_and_filename():
     urls_and_filenames = []
     base = 'http://www.drumsandco.com/Partitions/'
@@ -64,7 +67,7 @@ def main():
 
 def download_file(path, url):
     """Download drums pdf file"""
-    resp = requests.get(url)
+    resp = session.get(url)
 
     if resp.status_code != 200:
         return print(f'{url} failed')
@@ -88,12 +91,14 @@ This is a perfect example to try asyncio. We have a bunch of files to download a
 ```python
 import aiohttp
 import asyncio
+
+
+session = aiohttp.ClientSession()
+
 ...
 
 
 async def main():
-    global session
-    session = aiohttp.ClientSession()
     tasks = []
     urls_and_filenames = get_list_of_urls_and_filename()
     len_dls = len(urls_and_filenames)
