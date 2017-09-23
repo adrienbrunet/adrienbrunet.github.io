@@ -85,22 +85,16 @@ Here is the `factories.py` file if you're a bit lost:
 import factory
 
 from django.conf import settings
+from django.contrib.auth.hashers import make_password
 
 
 class UserFactory(factory.django.DjangoModelFactory):
-    class Meta:
-        model = settings.AUTH_USER_MODEL
-
+    password = make_password('password')
     username = factory.Sequence(lambda n: "User %03d" % n)
     email = factory.LazyAttribute(lambda obj: '%s@example.com' % obj.username)
-
-    @classmethod
-    def _generate(cls, create, attrs):
-        """Override the default _generate() to set the password."""
-        user = super()._generate(create, attrs)
-        user.set_password('password')
-        user.save()
-        return user
+    
+    class Meta:
+        model = settings.AUTH_USER_MODEL
 ```
 
 Note that all my test users have a **super** safe password now.
