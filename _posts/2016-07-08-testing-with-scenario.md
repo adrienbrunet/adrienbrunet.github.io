@@ -59,7 +59,7 @@ class ScenarioTestCase(TestCase):
     @contextmanager
     def log_user(self, user=None):
         if user is not None:
-            self.client.login(username=user.username, password='password')
+            self.client.force_login(user)
         try:
             yield
         finally:
