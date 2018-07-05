@@ -11,7 +11,7 @@ It's been a long time since my last article but I found a good reason to stop th
 
 I wrote [this article](http://blog.adrienbrunet.com/stuff/2016/09/15/hide-all-the-things.html) almost 2 years ago, showing how to use an extension called "stylish" to hide your facebook feed.
 
-Sadly, I learned today that this extension has a spyware spying browser history. (see this source for example(https://www.bleepingcomputer.com/news/software/chrome-and-firefox-pull-stylish-add-on-after-report-it-logged-browser-history/))
+Sadly, I learned today that this extension has a spyware spying browser history. ([see this source for example](https://www.bleepingcomputer.com/news/software/chrome-and-firefox-pull-stylish-add-on-after-report-it-logged-browser-history/))
 
 What now ? I still want to hide my facebook feed but I want to get rid of this stupid addon.
 
