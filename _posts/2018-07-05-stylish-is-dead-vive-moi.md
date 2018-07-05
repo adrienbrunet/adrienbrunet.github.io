@@ -64,5 +64,7 @@ Then, you can add the according icon and your addon is ready.
 The submission process is really simple and I got accepted in no time.
 If you want to try it out... [Here you go!](https://addons.mozilla.org/en-GB/firefox/addon/hidemyfbfeed/)
 
+All source code is available [here on github](https://github.com/adrienbrunet/hidemyfbfeed)
+
 Cheers! 
 :beers:
