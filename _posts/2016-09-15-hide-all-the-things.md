@@ -7,6 +7,8 @@ comments: true
 description: Want to hide tiny part of well know websites? Here is a trick.
 ---
 
+WARNING: if you're reading this, you probably want to see [this article](http://blog.adrienbrunet.com/stuff/2018/07/05/stylish-is-dead-vive-moi.html) because of stylish which happens to have a spyware inside it. Meh, life too short for that.
+
 Do you want to hide parts of facebook or twitter? Have a look.
 
 <p align="center"><img src="/assets/images/hide-all-the-things.jpg" alt="Hide all the things"></p>
