@@ -43,7 +43,7 @@ It's not huge donations but still, I hope that helps. What are you waiting for t
 
 2019 will be full of surprise as I'm changing position and will maybe shift to others languages/frameworks.
 
-I want to plan more regular donations. For 2019, I'm considering for now:
+I want to plan more regular donations. For 2019, I'm considering:
 
 - Vue.js - amazing framework with a really good documentation
 - Django Rest Framework - I couldn't do my job without this framework. I started submitting a few tiny mini PRs, we'll see where that goes
