@@ -17,7 +17,7 @@ Being away for a while helped me understand what was really important to me in m
 
 During the first days, work concerns kept popping in my head, "Did our team deliver that product on time ?", "How is that part going ?" etc...
 
-After a while, daily concerns went away and I cared less and less about most projects I was previously working in. It really helped me see the bigger picture. What I like in my work and what I'd like to change.
+After a while, daily concerns went away and I cared less and less about most projects I was previously working on. It really helped me see the bigger picture. What I like in my work and what I'd like to change.
 
 I realised that I was driving away from communities like Django and Python and it felt wrong. It gave me so much I'd like to give back now.
 
