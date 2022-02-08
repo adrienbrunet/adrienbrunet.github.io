@@ -49,7 +49,6 @@ I want to plan more regular donations. For 2019, I'm considering:
 - Django Rest Framework - I couldn't do my job without this framework. I started submitting a few tiny mini PRs, we'll see where that goes
 - Let's Encrypt - They change my life for certificates!
 
-
 What are your suggestions?
 
 Cheers !
